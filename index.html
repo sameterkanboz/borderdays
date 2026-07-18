@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Border Days — Schengen 90/180 &amp; Tax Residency Tracker</title>
+<meta name="description" content="Track your Schengen 90/180 days and 183-day tax residency. Offline, private, no account required.">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<style>
+:root{
+  --bg:#F6F8FB; --surface:#fff; --ink:#0F172A; --ink2:#475569; --ink3:#94A3B8;
+  --line:#E2E8F0; --primary:#2563EB; --primary-deep:#1E40AF;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--ink);-webkit-font-smoothing:antialiased;line-height:1.6}
+.hero{background:linear-gradient(135deg,var(--primary),var(--primary-deep));color:#fff;padding:72px 24px;text-align:center}
+.hero img{width:96px;height:96px;border-radius:22px;margin-bottom:20px}
+.hero h1{font-size:40px;letter-spacing:-.02em;margin-bottom:12px}
+.hero p{font-size:18px;opacity:.9;max-width:560px;margin:0 auto}
+main{max-width:720px;margin:0 auto;padding:48px 24px}
+h2{font-size:24px;letter-spacing:-.01em;margin:40px 0 12px}
+p{color:var(--ink2);margin-bottom:12px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin-top:24px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:20px}
+.card h3{font-size:16px;margin-bottom:6px}
+.card p{font-size:14px;margin:0}
+a{color:var(--primary)}
+footer{border-top:1px solid var(--line);padding:32px 24px;text-align:center;color:var(--ink3);font-size:14px}
+footer a{color:var(--ink2)}
+</style>
+</head>
+<body>
+<div class="hero">
+  <img src="favicon.svg" alt="Border Days logo">
+  <h1>Border Days</h1>
+  <p>Track your Schengen 90/180 days and 183-day tax residency. Offline, private, no account required.</p>
+</div>
+<main>
+  <h2>What it does</h2>
+  <div class="cards">
+    <div class="card"><h3>90/180 tracking</h3><p>Rolling-window math verified against the official EU short-stay calculator, with the exact dates your days come back.</p></div>
+    <div class="card"><h3>Trip planning</h3><p>Pick a future entry date and see exactly how long you can stay and your latest exit date.</p></div>
+    <div class="card"><h3>Tax residency</h3><p>Per-country day counts against the 183-day rule, for any calendar year.</p></div>
+    <div class="card"><h3>PDF border report</h3><p>A clean travel history report you can show at passport control.</p></div>
+  </div>
+  <h2>Support</h2>
+  <p>Questions, bug reports, or feature requests — email us and we will get back to you as soon as we can.</p>
+  <p><a href="mailto:sameterkanboz@gmail.com">sameterkanboz@gmail.com</a></p>
+  <h2>Frequently asked</h2>
+  <p><strong>Does the app need an account?</strong> No. Everything is stored on your device. There is no sign-up, no cloud, no tracking.</p>
+  <p><strong>Is the calculation official?</strong> The engine follows the Schengen 90/180 rolling-window rule and is tested against the official European Commission calculator's behaviour. It is an aid, not a legal document — always verify with official sources.</p>
+  <p><strong>What does Pro include?</strong> Unlimited trip history, unlimited future-trip planning, the PDF border report, and tax residency tracking — as a one-time purchase.</p>
+</main>
+<footer>
+  <p>© 2026 Samet Erkan Boz · <a href="privacy.html">Privacy Policy</a></p>
+</footer>
+</body>
+</html>
